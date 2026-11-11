@@ -1,0 +1,654 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#151714" />
+    <meta
+      name="description"
+      content="Harsh Sarawagi — Electrical Engineering at IIT Kanpur. Software engineering, AI applications, and machine learning. Explore selected projects and experience at BNY."
+    />
+    <meta
+      property="og:title"
+      content="Harsh Sarawagi — Software, with a little curiosity."
+    />
+    <meta
+      property="og:description"
+      content="Software engineering, AI applications, and machine learning. IIT Kanpur '27."
+    />
+    <title>Harsh Sarawagi — Software & AI</title>
+    <link rel="icon" href="icons/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;450;500;550;600;650;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/responsive.css" />
+    <script type="module" src="scripts/app.js"></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <header class="header">
+      <a class="logo" href="#" aria-label="Harsh Sarawagi home"
+        >h<span>s</span><i></i
+      ></a>
+      <nav aria-label="Main navigation">
+        <a href="#experience">Experience</a
+        ><a href="#work">Selected work</a
+        ><a href="#about">About</a
+        ><a class="nav-contact" href="#contact">Let’s talk <span>↗</span></a>
+      </nav>
+      <button
+        class="menu-toggle"
+        aria-expanded="false"
+        aria-label="Open navigation"
+      >
+        Menu <span>＋</span>
+      </button>
+    </header>
+    <main id="main">
+      <section class="hero wrap" aria-labelledby="hero-title">
+        <div class="hero-top">
+          <span class="eyebrow"
+            ><i class="status-dot"></i> HARSH SARAWAGI / PORTFOLIO</span
+          ><span class="eyebrow hero-year">IIT KANPUR ’27</span>
+        </div>
+        <div class="hero-layout">
+          <div class="hero-copy">
+            <h1 id="hero-title">
+              A little curiosity.<br />A lot of
+              <span class="serif">possibility.</span>
+            </h1>
+            <p>
+              I build software that connects ideas<br class="desktop-br" />
+              to the real world.
+            </p>
+            <div class="hero-actions">
+              <a class="button primary" href="#work"
+                >Explore my work <span>↘</span></a
+              ><a
+                class="text-link"
+                href="documents/Harsh-Sarawagi-Resume.pdf"
+                target="_blank"
+                rel="noopener"
+                >View résumé <span>↗</span></a
+              >
+            </div>
+            <div class="hero-credential">
+              <span class="tiny-mark">⌘</span
+              ><span
+                >Electrical Engineering, IIT Kanpur<br /><b
+                  >Previously Software Developer Intern @ BNY</b
+                ></span
+              >
+            </div>
+          </div>
+          <div class="scene-wrap">
+            <div class="scene-grid"></div>
+            <div
+              id="scene"
+              role="img"
+              aria-label="Interactive floating sculptural knot with orbiting geometric objects"
+            >
+              <div class="scene-fallback">
+                <div class="fallback-ring r1"></div>
+                <div class="fallback-ring r2"></div>
+                <div class="fallback-ring r3"></div>
+              </div>
+            </div>
+            <span class="scene-label label-a"><i></i> IDEAS INTO SYSTEMS</span
+            ><span class="scene-label label-b"
+              >BUILT TO EXPLORE <span>↗</span></span
+            >
+            <div class="scene-bottom">
+              <span><span class="drag-icon">⤧</span> DRAG TO EXPLORE</span
+              ><button
+                id="motion-toggle"
+                aria-pressed="false"
+                aria-label="Pause 3D animation"
+              >
+                Ⅱ <span>PAUSE MOTION</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="hero-bottom">
+          <span
+            >SOFTWARE ENGINEERING <i>·</i> APPLIED AI <i>·</i> MACHINE
+            LEARNING</span
+          ><a href="#work">SCROLL TO DISCOVER <span>↓</span></a>
+        </div>
+      </section>
+      <div class="marquee" aria-hidden="true">
+        <div>
+          THINK DEEPLY <span>✳</span> BUILD THOUGHTFULLY <span>✳</span> KEEP
+          EXPLORING <span>✳</span> THINK DEEPLY <span>✳</span> BUILD
+          THOUGHTFULLY <span>✳</span> KEEP EXPLORING <span>✳</span>
+        </div>
+      </div>
+      <section class="experience wrap section" id="experience">
+        <div class="section-heading reveal">
+          <div>
+            <span class="eyebrow">01 / LEARNING IN THE REAL WORLD</span>
+            <h2>Built with <span class="serif">purpose.</span></h2>
+          </div>
+        </div>
+        <div class="experience-row reveal">
+          <div class="exp-time">MAY — JUL 2026<span>BNY</span></div>
+          <div>
+            <span class="project-kind">SOFTWARE DEVELOPER INTERN</span>
+            <h3>Making monitoring<br />more intelligent.</h3>
+            <p>
+              At BNY, I worked on making application monitoring easier to access
+              and act on. I designed and developed a unified Health Check Agent
+              using Python and FastAPI, exposing 19+ MCP tools through JSON-RPC
+              2.0, MCP clients, and Swagger UI.
+            </p>
+            <ul class="internship-contributions">
+              <li>
+                <strong>Connected operational systems.</strong> Integrated
+                Oracle DB, Splunk, and App Engine to centralize application
+                health, logs, and operational information across production and
+                QA environments.
+              </li>
+              <li>
+                <strong>Made monitoring proactive.</strong> Built parallel
+                hourly health checks to detect anomalies and trigger
+                severity-based email alerts.
+              </li>
+              <li>
+                <strong>Brought AI into the workflow.</strong> Added a RAG tool
+                for application documentation and connected monitoring tools to
+                BNY’s internal AI platform using Nuggets, enabling
+                natural-language requests and tool selection.
+              </li>
+            </ul>
+            <div class="internship-learning">
+              <h4>Beyond the implementation</h4>
+              <p>
+                The internship helped me connect the stages of the software
+                development lifecycle (SDLC): understanding a requirement,
+                implementing a solution, integrating it with existing systems,
+                and validating its behavior.
+              </p>
+              <p>
+                I also developed a better understanding of professional work
+                culture—communicating progress, asking focused questions,
+                responding to feedback, and taking responsibility for how my
+                work fits into a larger team.
+              </p>
+            </div>
+            <div class="tags">
+              <span>Python</span><span>FastAPI</span><span>MCP</span
+              ><span>RAG</span><span>Oracle DB</span>
+            </div>
+          </div>
+          <div class="exp-number">
+            19<span>+<br />MONITORING TOOLS</span>
+          </div>
+        </div>
+        <!-- <div class="mentor-row reveal">
+          <span class="eyebrow">JUL 2024 — MAY 2025</span>
+          <h3>Academic Mentor <span>↗</span></h3>
+          <p>
+            Center for Mental Health and Wellbeing, IIT Kanpur. Mentored
+            first-year students in Engineering Drawing and supported a 10-day
+            orientation for 1,200+ students.
+          </p>
+        </div> -->
+      </section>
+      <section class="work wrap section" id="work" aria-labelledby="work-title">
+        <div class="section-heading reveal">
+          <div>
+            <span class="eyebrow">02 / SELECTED WORK</span>
+            <h2 id="work-title">
+              From <span class="serif">what if</span><br />to what works.
+            </h2>
+          </div>
+          <p>
+            A few explorations in intelligent systems,<br />useful tools, and
+            learning by building.
+          </p>
+        </div>
+        <div class="filters" role="group" aria-label="Filter projects">
+          <button class="active" data-filter="all" aria-pressed="true">
+            All work</button
+          ><button data-filter="ai" aria-pressed="false">
+            AI & ML</button
+          ><button data-filter="web" aria-pressed="false">
+            Web development</button
+          ><span class="filter-note">IDEAS, EXPERIMENTS & FINISHED BUILDS</span>
+        </div>
+        <div class="project-grid">
+          <article class="project featured reveal" data-category="ai web">
+            <button
+              class="project-visual cp-art"
+              data-project="cp"
+              aria-label="Explore CP Assistant"
+            >
+              <div class="art-caption">01 / CODE, UNDERSTOOD.</div>
+              <div class="code-window">
+                <div class="window-bar">
+                  <span>● ● ●</span><span>CP ASSISTANT</span><i>↗</i>
+                </div>
+                <div class="code-content">
+                  <div class="code-lines">
+                    <span>01</span> <em>const</em> nextChallenge = {<br /><span
+                      >02</span
+                    >
+                    &nbsp; difficulty: <b>"stretch"</b>,<br /><span>03</span>
+                    &nbsp; focus: <b>"dynamic programming"</b>,<br /><span
+                      >04</span
+                    >
+                    &nbsp; potential: <b>Infinity</b><br /><span>05</span> };
+                  </div>
+                  <div class="mini-chart">
+                    <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i
+                    ><span>YOUR NEXT LEVEL ↗</span>
+                  </div>
+                </div>
+                <div class="code-foot">
+                  <span class="status-dot"></span> A LITTLE BETTER, EVERY
+                  SUBMISSION.
+                </div>
+              </div>
+              <div class="floating-pill">✳ AI-powered practice</div>
+              <span class="visual-arrow">↗</span>
+            </button>
+            <div class="project-body">
+              <div class="project-info">
+                <div>
+                  <span class="project-kind"
+                    >AI APPLICATION · BROWSER EXTENSION</span
+                  >
+                  <h3>
+                    <button data-project="cp">
+                      CP Assistant <span>↗</span>
+                    </button>
+                  </h3>
+                </div>
+                <span class="project-date">2024 — 2025</span>
+              </div>
+              <p>
+                Turning Codeforces submission history into useful insights,
+                thoughtful code reviews, and a better next challenge.
+              </p>
+              <div class="tags">
+                <span>Django</span><span>PostgreSQL</span><span>Groq</span
+                ><span>Chrome Extension</span>
+              </div>
+              <button class="project-details" data-project="cp">
+                View project details <span aria-hidden="true">↗</span>
+              </button>
+            </div>
+          </article>
+          <article class="project reveal" data-category="ai">
+            <button
+              class="project-visual rl-art"
+              data-project="rl"
+              aria-label="Explore Predator-Prey RL Simulator"
+            >
+              <div class="art-caption">02 / LEARNING THE NEXT MOVE.</div>
+              <div class="rl-grid">
+                <i class="prey">●</i><i class="predator">✳</i
+                ><i class="path p1"></i><i class="path p2"></i
+                ><i class="path p3"></i><i class="path p4"></i>
+              </div>
+              <div class="rl-note">
+                <span>AGENT / ENVIRONMENT</span><b>Every move is a lesson.</b>
+              </div>
+              <span class="visual-arrow">↗</span>
+            </button>
+            <div class="project-body">
+              <div class="project-info">
+                <div>
+                  <span class="project-kind">REINFORCEMENT LEARNING</span>
+                  <h3>
+                    <button data-project="rl">
+                      Predator–Prey RL Simulator <span>↗</span>
+                    </button>
+                  </h3>
+                </div>
+                <span class="project-date">2026</span>
+              </div>
+              <p>
+                A grid world for exploring how agents learn, plan, and find a
+                better policy.
+              </p>
+              <div class="tags">
+                <span>PyTorch</span><span>SciPy</span
+                ><span>Policy Gradient</span>
+              </div>
+              <button class="project-details" data-project="rl">
+                View project details <span aria-hidden="true">↗</span>
+              </button>
+            </div>
+          </article>
+          <article class="project reveal" data-category="ai">
+            <button
+              class="project-visual stunt-art"
+              data-project="stunt"
+              aria-label="Explore STUNT Reimplementation"
+            >
+              <div class="art-caption">03 / LESS DATA. MORE UNDERSTANDING.</div>
+              <div class="data-cloud" aria-hidden="true"></div>
+              <div class="stunt-stat">
+                +6.2<span>pp accuracy<br />at 1-shot</span>
+              </div>
+              <span class="visual-arrow">↗</span>
+            </button>
+            <div class="project-body">
+              <div class="project-info">
+                <div>
+                  <span class="project-kind"
+                    >SELF-SUPERVISED · FEW-SHOT LEARNING</span
+                  >
+                  <h3>
+                    <button data-project="stunt">
+                      STUNT Reimplementation <span>↗</span>
+                    </button>
+                  </h3>
+                </div>
+                <span class="project-date">2026</span>
+              </div>
+              <p>
+                Learning useful tabular representations from unlabeled data,
+                then doing more with fewer examples.
+              </p>
+              <div class="tags">
+                <span>PyTorch</span><span>scikit-learn</span
+                ><span>ProtoNet</span>
+              </div>
+              <button class="project-details" data-project="stunt">
+                View project details <span aria-hidden="true">↗</span>
+              </button>
+            </div>
+          </article>
+          <article class="project reveal" data-category="ai">
+            <button
+              class="project-visual rag-art"
+              data-project="rag"
+              aria-label="Explore Illuminating Language"
+            >
+              <div class="art-caption">04 / KNOWLEDGE, CONNECTED.</div>
+              <div class="rag-paper paper-back">
+                IIT KANPUR<br /><span>INFORMATION / RESOURCES / CONTEXT</span>
+              </div>
+              <div class="rag-paper paper-front">
+                <span class="chat-symbol">✳</span
+                ><b>Good questions.<br />Grounded answers.</b
+                ><span>IITK KNOWLEDGE ASSISTANT <i>↗</i></span>
+              </div>
+              <span class="visual-arrow">↗</span>
+            </button>
+            <div class="project-body">
+              <div class="project-info">
+                <div>
+                  <span class="project-kind"
+                    >NLP · RETRIEVAL-AUGMENTED GENERATION</span
+                  >
+                  <h3>
+                    <button data-project="rag">
+                      Illuminating Language <span>↗</span>
+                    </button>
+                  </h3>
+                </div>
+                <span class="project-date">2024</span>
+              </div>
+              <p>
+                An IIT Kanpur knowledge assistant built to make institutional
+                information easier to find.
+              </p>
+              <div class="tags">
+                <span>ChromaDB</span><span>Streamlit</span><span>RAG</span>
+              </div>
+              <button class="project-details" data-project="rag">
+                View project details <span aria-hidden="true">↗</span>
+              </button>
+            </div>
+          </article>
+          <article class="project reveal" data-category="web">
+            <button
+              class="project-visual social-art"
+              data-project="social"
+              aria-label="Explore Social Media Web App"
+            >
+              <div class="art-caption">05 / MADE FOR CONNECTION.</div>
+              <div class="social-window">
+                <div class="social-top">
+                  <span>the social space<span class="lime">.</span></span
+                  ><span>✳</span>
+                </div>
+                <div class="social-post">
+                  <div class="avatar-shapes"><i></i><i></i><i></i><i></i></div>
+                  <b>A place to share<br />your side of the world.</b
+                  ><span>♡ &nbsp; ◯ &nbsp; ↗</span>
+                </div>
+              </div>
+              <span class="visual-arrow">↗</span>
+            </button>
+            <div class="project-body">
+              <div class="project-info">
+                <div>
+                  <span class="project-kind">FULL-STACK WEB DEVELOPMENT</span>
+                  <h3>
+                    <button data-project="social">
+                      Social Media Web App <span>↗</span>
+                    </button>
+                  </h3>
+                </div>
+                <span class="project-date">2024</span>
+              </div>
+              <p>
+                Profiles, posts, and conversations. A complete social
+                experience, built across the stack.
+              </p>
+              <div class="tags">
+                <span>React</span><span>Node.js</span><span>MongoDB</span
+                ><span>Zustand</span>
+              </div>
+              <button class="project-details" data-project="social">
+                View project details <span aria-hidden="true">↗</span>
+              </button>
+            </div>
+          </article>
+        </div>
+        <div class="work-bottom">
+          <span>ALWAYS SOMETHING NEW IN THE WORKS.</span
+          ><a
+            class="text-link"
+            href="https://github.com/Harsh-sarawagi"
+            target="_blank"
+            rel="noopener"
+            >More on GitHub ↗</a
+          >
+        </div>
+      </section>
+      <section class="about section" id="about">
+        <div class="wrap">
+          <div class="about-grid">
+            <div class="reveal">
+              <span class="eyebrow">03 / THE PERSON BEHIND THE CODE</span>
+              <h2>
+                Engineering mindset.<br /><span class="serif"
+                  >Curious by default.</span
+                >
+              </h2>
+              <div class="about-text">
+                <p>
+                  I’m Harsh, a final-year Electrical Engineering undergraduate
+                  at IIT Kanpur. I’m interested in the space where strong
+                  engineering meets intelligent software.
+                </p>
+                <p>
+                  From backend systems and full-stack applications to
+                  reinforcement learning and RAG, I enjoy understanding how
+                  things work—and building something useful with what I learn.
+                </p>
+                <p>
+                  Beyond the code, I’ve mentored first-year students and helped
+                  welcome 1,200+ new students to campus. Good systems matter. So
+                  do the people who use them.
+                </p>
+              </div>
+              <a
+                class="text-link"
+                href="documents/Harsh-Sarawagi-Resume.pdf"
+                target="_blank"
+                rel="noopener"
+                >The full story, in my résumé ↗</a
+              >
+            </div>
+            <div class="campus-card reveal">
+              <img
+                src="images/iit-kanpur.jpg"
+                alt="P. K. Kelkar Library on the IIT Kanpur campus"
+                loading="lazy"
+                width="640"
+                height="480"
+              />
+              <div class="campus-overlay">
+                <span>KANPUR / UTTAR PRADESH</span>
+                <h3>A place to<br />keep asking why.</h3>
+                <div><span>IIT KANPUR</span><span>2023 — 2027</span></div>
+              </div>
+              <a
+                class="photo-credit"
+                href="https://commons.wikimedia.org/wiki/File:IITKLibrary.jpg"
+                target="_blank"
+                rel="noopener"
+                >Photo: Amar / CC BY-SA 2.0 / display adapted</a
+              >
+            </div>
+          </div>
+          <div class="education-line">
+            <span>B.TECH / ELECTRICAL ENGINEERING</span
+            ><span>Indian Institute of Technology Kanpur</span
+            ><span>CPI <b>7.7 / 10</b></span>
+          </div>
+          <div class="achievement-grid">
+            <div class="reveal">
+              <span>JEE ADVANCED / 2023</span
+              ><strong>2,295<span>RANK</span></strong>
+            </div>
+            <div class="reveal">
+              <span>JEE MAIN / 2023</span
+              ><strong>3,106<span>RANK</span></strong>
+            </div>
+            <div class="reveal">
+              <span>NTSE / 2021</span><strong>Top 0.02<span>%</span></strong
+              ><small>Qualified among 1M+ candidates</small>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="toolkit wrap section" id="toolkit">
+        <div class="section-heading reveal">
+          <div>
+            <span class="eyebrow">04 / MY TOOLKIT</span>
+            <h2>
+              The right tool.<br />The next
+              <span class="serif">possibility.</span>
+            </h2>
+          </div>
+          <p>
+            Tools I’ve worked with across<br />projects, coursework, and
+            internships.
+          </p>
+        </div>
+        <div class="skill-rows">
+          <div class="reveal">
+            <span>01 / LANGUAGES</span>
+            <p>
+              Python <i>/</i> C++ <i>/</i> JavaScript <i>/</i> SQL <i>/</i> C
+            </p>
+          </div>
+          <div class="reveal">
+            <span>02 / SOFTWARE & SYSTEMS</span>
+            <p>
+              React <i>/</i> Django <i>/</i> FastAPI <i>/</i> Node.js
+              <i>/</i> Docker
+            </p>
+          </div>
+          <div class="reveal">
+            <span>03 / AI & DATA</span>
+            <p>
+              PyTorch <i>/</i> scikit-learn <i>/</i> LangChain
+              <i>/</i> PostgreSQL <i>/</i> MongoDB
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="contact" id="contact">
+        <div class="wrap">
+          <span class="eyebrow"
+            ><i class="status-dot"></i> NEXT / SOMETHING WORTH BUILDING</span
+          >
+          <h2>
+            Great things start<br />with a
+            <span class="serif">conversation.</span
+            ><a
+              href="mailto:harshsara23@iitk.ac.in"
+              aria-label="Email Harsh Sarawagi"
+              >↗</a
+            >
+          </h2>
+          <div class="contact-bottom">
+            <div>
+              <a class="email" href="mailto:harshsara23@iitk.ac.in"
+                >harshsara23@iitk.ac.in</a
+              ><button id="copy-email" aria-label="Copy email address">
+                Copy email <span>⧉</span></button
+              ><span id="copy-status" role="status"></span>
+            </div>
+            <div class="social-links">
+              <a
+                href="https://github.com/Harsh-sarawagi"
+                target="_blank"
+                rel="noopener"
+                >GitHub ↗</a
+              ><a
+                href="https://www.linkedin.com/in/harsh-sarawagi-7607aa300/"
+                target="_blank"
+                rel="noopener"
+                >LinkedIn ↗</a
+              ><a
+                href="documents/Harsh-Sarawagi-Resume.pdf"
+                target="_blank"
+                rel="noopener"
+                >Résumé ↗</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="wrap">
+      <span>© <span id="year">2026</span> HARSH SARAWAGI</span
+      ><span>THOUGHTFULLY BUILT. ENDLESSLY CURIOUS.</span
+      ><a href="#">BACK TO TOP ↑</a>
+    </footer>
+    <dialog id="project-dialog" aria-labelledby="dialog-title">
+      <div class="dialog-top">
+        <span class="eyebrow">A CLOSER LOOK</span
+        ><button id="close-dialog" aria-label="Close project details">✕</button>
+      </div>
+      <span class="project-kind" id="dialog-category"></span>
+      <h2 id="dialog-title"></h2>
+      <p id="dialog-summary"></p>
+      <ul id="dialog-points"></ul>
+      <div class="tags" id="dialog-tags"></div>
+      <a
+        id="dialog-github"
+        class="button primary"
+        target="_blank"
+        rel="noopener"
+        >Explore repository <span>↗</span></a
+      >
+      <p id="dialog-note" class="dialog-note"></p>
+    </dialog>
+  </body>
+</html>

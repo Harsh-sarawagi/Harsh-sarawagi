@@ -1,0 +1,735 @@
+@media (min-width: 1600px) {
+  .header {
+    width: 1320px;
+  }
+  .hero-layout {
+    min-height: 650px;
+  }
+  .scene-wrap {
+    height: 580px;
+  }
+}
+@media (max-width: 1100px) {
+  .wrap,
+  .header {
+    width: calc(100% - 64px);
+  }
+  h1 {
+    font-size: 49px;
+    letter-spacing: -2.5px;
+  }
+  .hero-layout {
+    min-height: 520px;
+  }
+  .scene-wrap {
+    height: 450px;
+  }
+  .about-grid {
+    gap: 50px;
+  }
+  .code-window {
+    width: 75%;
+    left: 12%;
+  }
+  .about h2 {
+    font-size: 36px;
+  }
+  .experience-row {
+    gap: 30px;
+  }
+  .mentor-row {
+    gap: 30px;
+  }
+  .contact h2 {
+    font-size: 65px;
+  }
+  .contact h2 > a {
+    width: 80px;
+    height: 80px;
+    font-size: 46px;
+  }
+  .skill-rows i {
+    margin: 0 7px;
+  }
+  .rag-paper {
+    width: 210px;
+  }
+  .paper-back {
+    left: 12%;
+  }
+  .paper-front {
+    left: 27%;
+  }
+}
+@media (max-width: 760px) {
+  html {
+    scroll-padding-top: 25px;
+  }
+  .wrap,
+  .header {
+    width: calc(100% - 40px);
+  }
+  .header {
+    height: 76px;
+    position: relative;
+    z-index: 10;
+  }
+  .logo {
+    font-size: 33px;
+  }
+  .header nav {
+    display: none;
+    position: absolute;
+    top: 75px;
+    left: -20px;
+    right: -20px;
+    padding: 25px;
+    background: #20251c;
+    border-bottom: 1px solid var(--line);
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+  }
+  .header nav.open {
+    display: flex;
+  }
+  .menu-toggle {
+    display: flex;
+    gap: 10px;
+    font-size: 12px;
+    align-items: center;
+  }
+  .menu-toggle span {
+    color: var(--lime);
+    font-size: 20px;
+  }
+  .hero {
+    padding-top: 28px;
+  }
+  .hero-year {
+    font-size: 8px;
+  }
+  .hero-top .eyebrow {
+    font-size: 8px;
+    letter-spacing: 1px;
+  }
+  .hero-layout {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    min-height: 0;
+  }
+  .hero-copy {
+    padding: 43px 0 0;
+    width: 100%;
+  }
+  h1 {
+    font-size: clamp(36px, 7.7vw, 57px);
+    letter-spacing: -2.2px;
+    white-space: normal;
+  }
+  .hero-copy > p {
+    font-size: 16px;
+    margin: 23px 0;
+  }
+  .hero-actions {
+    gap: 22px;
+  }
+  .hero-credential {
+    margin-top: 30px;
+    font-size: 10px;
+  }
+  .scene-wrap {
+    width: min(440px, 100%);
+    height: 360px;
+    margin: 10px auto;
+  }
+  .label-a {
+    top: 5%;
+  }
+  .label-b {
+    right: 3%;
+    bottom: 21%;
+  }
+  .scene-bottom {
+    left: 4%;
+    right: 4%;
+    bottom: 1%;
+  }
+  .hero-bottom {
+    font-size: 7px;
+    letter-spacing: 0.7px;
+    gap: 15px;
+    align-items: center;
+    padding: 19px 0;
+  }
+  .hero-bottom > span {
+    max-width: 205px;
+    line-height: 1.8;
+  }
+  .hero-bottom i {
+    margin: 0 5px;
+  }
+  .hero-bottom a {
+    font-size: 7px;
+    white-space: nowrap;
+  }
+  .hero-bottom a span {
+    margin-left: 7px;
+  }
+  .marquee {
+    font-size: 11px;
+    padding: 12px 0;
+  }
+  .marquee span {
+    margin: 0 25px;
+  }
+  .section {
+    padding-top: 65px;
+    padding-bottom: 60px;
+  }
+  .section-heading {
+    display: block;
+    margin-bottom: 28px;
+  }
+  h2 {
+    font-size: 38px;
+    letter-spacing: -1.7px;
+  }
+  .section-heading .eyebrow {
+    margin-bottom: 20px;
+  }
+  .section-heading > p {
+    font-size: 13px;
+    margin-top: 20px;
+  }
+  .filter-note {
+    display: none;
+  }
+  .filters {
+    gap: 22px;
+    margin-bottom: 24px;
+  }
+  .filters button {
+    font-size: 10px;
+  }
+  .project-grid {
+    grid-template-columns: 1fr;
+    gap: 33px;
+  }
+  .project.featured {
+    grid-column: auto;
+  }
+  .project-visual,
+  .featured .project-visual {
+    height: 290px;
+  }
+  .art-caption {
+    top: 20px;
+    left: 20px;
+    font-size: 7px;
+  }
+  .code-window {
+    width: 88%;
+    left: 6%;
+    top: 65px;
+  }
+  .code-content {
+    padding: 20px 12px;
+  }
+  .code-lines {
+    font-size: 9px;
+    line-height: 2;
+  }
+  .code-lines span {
+    margin-right: 7px;
+  }
+  .mini-chart {
+    width: 85px;
+    gap: 3px;
+  }
+  .mini-chart i {
+    width: 6px;
+  }
+  .mini-chart span {
+    font-size: 4px;
+  }
+  .window-bar {
+    padding: 12px;
+    font-size: 6px;
+  }
+  .code-foot {
+    padding: 10px 12px;
+    font-size: 5px;
+  }
+  .floating-pill {
+    bottom: 28px;
+    right: 8%;
+    padding: 10px;
+    font-size: 9px;
+  }
+  .project h3 {
+    font-size: 21px;
+  }
+  .project-date {
+    font-size: 8px;
+  }
+  .project-info {
+    margin-top: 17px;
+  }
+  .project > p {
+    font-size: 12px;
+  }
+  .project-kind {
+    font-size: 7px;
+  }
+  .rl-grid {
+    left: 28%;
+    top: 40px;
+    width: 210px;
+    height: 210px;
+    background-size: 30px 30px;
+  }
+  .data-cloud {
+    inset: 35px 5px 20px 80px;
+  }
+  .work-bottom > span {
+    max-width: 130px;
+    line-height: 1.6;
+    font-size: 7px;
+  }
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 35px;
+  }
+  .about h2 {
+    font-size: 36px;
+  }
+  .about-text p {
+    font-size: 13px;
+  }
+  .campus-card {
+    height: 320px;
+  }
+  .education-line {
+    flex-wrap: wrap;
+    margin-top: 30px;
+    font-size: 11px;
+  }
+  .education-line > span:first-child {
+    width: 100%;
+  }
+  .achievement-grid {
+    gap: 10px;
+    padding-top: 27px;
+  }
+  .achievement-grid > div {
+    padding-left: 12px;
+  }
+  .achievement-grid > div > span {
+    font-size: 6px;
+    letter-spacing: 0.6px;
+  }
+  .achievement-grid strong {
+    font-size: 29px;
+    letter-spacing: -1.5px;
+    margin-top: 12px;
+  }
+  .achievement-grid strong span {
+    font-size: 6px;
+    margin-left: 4px;
+  }
+  .achievement-grid small {
+    font-size: 7px;
+    line-height: 1.4;
+    display: block;
+    margin-top: 5px;
+  }
+  .experience-row {
+    grid-template-columns: 1fr;
+    gap: 25px;
+    padding: 30px 0;
+    position: relative;
+  }
+  .exp-time span {
+    font-size: 38px;
+    margin-top: 7px;
+  }
+  .exp-number {
+    position: absolute;
+    right: 0;
+    top: 30px;
+    font-size: 53px;
+    letter-spacing: -3px;
+  }
+  .exp-number span {
+    font-size: 6px;
+  }
+  .experience h3 {
+    font-size: 29px;
+  }
+  .experience p {
+    font-size: 12px;
+  }
+  .mentor-row {
+    grid-template-columns: 1fr;
+    gap: 15px;
+    padding-top: 30px;
+  }
+  .mentor-row h3 {
+    font-size: 21px;
+  }
+  .toolkit {
+    padding-top: 0;
+  }
+  .skill-rows > div {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    padding: 22px 0;
+  }
+  .skill-rows p {
+    font-size: 18px;
+    line-height: 1.7;
+  }
+  .skill-rows i {
+    margin: 0 5px;
+  }
+  .contact {
+    padding: 50px 0 30px;
+  }
+  .contact .eyebrow {
+    font-size: 7px;
+    letter-spacing: 1.1px;
+  }
+  .contact h2 {
+    font-size: 39px;
+    letter-spacing: -1.8px;
+    margin: 25px 0 35px;
+    padding-right: 35px;
+  }
+  .contact h2 > a {
+    width: 40px;
+    height: 40px;
+    font-size: 28px;
+    top: 4px;
+    right: 0;
+  }
+  .contact-bottom {
+    display: block;
+    padding-top: 20px;
+  }
+  .contact .email {
+    font-size: 15px;
+  }
+  .contact-bottom button {
+    font-size: 8px;
+    margin-left: 7px;
+    padding: 7px;
+  }
+  .social-links {
+    margin-top: 25px;
+    font-size: 11px;
+    gap: 27px;
+  }
+  footer {
+    font-size: 7px;
+    letter-spacing: 0.7px;
+    flex-wrap: wrap;
+    padding: 25px 0;
+  }
+  footer > span:nth-child(2) {
+    display: none;
+  }
+  dialog {
+    padding: 25px;
+  }
+  dialog h2 {
+    font-size: 29px;
+  }
+  dialog p,
+  dialog li {
+    font-size: 12px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *:before,
+  *:after {
+    animation: none !important;
+    transition: none !important;
+  }
+  .js-motion .reveal {
+    opacity: 1;
+    transform: none;
+  }
+}
+.photo-credit {
+  position: absolute;
+  bottom: 5px;
+  left: 24px;
+  font-size: 6px;
+  color: #b6bfad;
+  z-index: 2;
+}
+.campus-overlay {
+  padding-bottom: 30px;
+}
+.scene-bottom,
+.scene-label {
+  z-index: 2;
+}
+@media (max-width: 760px) {
+  .achievement-grid strong {
+    font-size: 26px;
+    white-space: nowrap;
+  }
+  .social-window {
+    top: 48px;
+    left: 14%;
+    right: 14%;
+  }
+  .social-post b {
+    font-size: 20px;
+  }
+}
+@media (max-width: 380px) {
+  .achievement-grid strong {
+    font-size: 23px;
+  }
+  .achievement-grid > div:last-child strong {
+    font-size: 19px;
+  }
+  .achievement-grid strong span {
+    margin-left: 2px;
+    font-size: 5px;
+  }
+}
+
+/* Preserve legibility rather than shrinking labels on small screens. */
+@media (max-width: 1100px) {
+  .experience-row {
+    grid-template-columns: 0.6fr 2fr;
+    gap: 30px;
+  }
+  .exp-number {
+    display: none;
+  }
+  .filter-note {
+    display: none;
+  }
+}
+@media (max-width: 760px) {
+  .eyebrow,
+  .hero-top .eyebrow,
+  .hero-year {
+    font-size: 11px;
+    letter-spacing: 0.5px;
+    line-height: 1.6;
+  }
+  .hero-top {
+    gap: 15px;
+  }
+  .hero-top .eyebrow:first-child {
+    max-width: 220px;
+  }
+  .hero-year {
+    white-space: nowrap;
+  }
+  .hero-credential {
+    font-size: 12px;
+  }
+  .hero-bottom {
+    font-size: 10px;
+    display: block;
+  }
+  .hero-bottom > span {
+    max-width: none;
+    display: block;
+  }
+  .hero-bottom a {
+    display: inline-block;
+    font-size: 10px;
+    margin-top: 14px;
+  }
+  .scene-label,
+  .scene-bottom,
+  .scene-bottom button,
+  .scene-bottom button span {
+    font-size: 10px;
+    letter-spacing: 0.3px;
+  }
+  .label-a {
+    left: 4%;
+  }
+  .scene-bottom {
+    left: 0;
+    right: 0;
+  }
+  .section-heading > p,
+  .about-text p,
+  .experience p {
+    font-size: 15px;
+  }
+  .filters {
+    gap: 18px;
+    flex-wrap: wrap;
+  }
+  .filters button {
+    font-size: 13px;
+    padding-bottom: 15px;
+  }
+  .filters button span {
+    font-size: 10px;
+  }
+  .project-grid {
+    gap: 35px;
+  }
+  .project-body {
+    padding: 22px 20px;
+  }
+  .project-info {
+    display: block;
+  }
+  .project-date {
+    display: block;
+    margin-top: 10px;
+    font-size: 12px;
+  }
+  .project-kind {
+    font-size: 11px;
+    letter-spacing: 0.3px;
+  }
+  .project h3 {
+    font-size: 24px;
+  }
+  .project-body > p {
+    font-size: 15px;
+  }
+  .tags span {
+    font-size: 12px;
+    padding: 7px 10px;
+  }
+  .project-details {
+    font-size: 14px;
+  }
+  .art-caption {
+    font-size: 10px;
+    letter-spacing: 0.3px;
+    right: 15px;
+  }
+  .work-bottom > span {
+    font-size: 10px;
+    max-width: 160px;
+  }
+  .text-link {
+    font-size: 14px;
+  }
+  .achievement-grid {
+    grid-template-columns: 1fr;
+    gap: 0;
+    padding-top: 10px;
+  }
+  .achievement-grid > div,
+  .achievement-grid > div:first-child {
+    border: 0;
+    border-bottom: 1px solid #444c39;
+    padding: 24px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 15px;
+  }
+  .achievement-grid > div > span {
+    font-size: 12px;
+    line-height: 1.7;
+    letter-spacing: 0.4px;
+  }
+  .achievement-grid strong,
+  .achievement-grid > div:last-child strong {
+    font-size: 32px;
+    margin: 0;
+    letter-spacing: -1.5px;
+    white-space: nowrap;
+  }
+  .achievement-grid strong span {
+    font-size: 11px;
+    margin-left: 5px;
+  }
+  .achievement-grid small {
+    font-size: 12px;
+    grid-column: 1/-1;
+  }
+  .education-line {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  .education-line > span:first-child {
+    font-size: 11px;
+  }
+  .campus-overlay > span,
+  .campus-overlay > div {
+    font-size: 11px;
+  }
+  .campus-overlay {
+    padding-bottom: 48px;
+  }
+  .photo-credit {
+    font-size: 10px;
+  }
+  .experience-row {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+  .exp-time,
+  .mentor-row .eyebrow {
+    font-size: 12px;
+  }
+  .internship-contributions {
+    font-size: 15px;
+  }
+  .internship-learning {
+    padding: 19px 17px;
+  }
+  .mentor-row h3 {
+    font-size: 23px;
+  }
+  .mentor-row p {
+    font-size: 15px;
+  }
+  .skill-rows span {
+    font-size: 12px;
+  }
+  .contact .eyebrow {
+    font-size: 10px;
+    letter-spacing: 0.4px;
+  }
+  .contact-bottom button {
+    font-size: 12px;
+    margin: 14px 0 0;
+    display: block;
+  }
+  .contact .email {
+    font-size: 17px;
+  }
+  .social-links {
+    font-size: 14px;
+    flex-wrap: wrap;
+    gap: 22px;
+  }
+  footer {
+    font-size: 10px;
+  }
+  .contact h2 {
+    font-size: 37px;
+  }
+  dialog p,
+  dialog li {
+    font-size: 15px;
+  }
+  dialog .dialog-note {
+    font-size: 12px;
+  }
+}
